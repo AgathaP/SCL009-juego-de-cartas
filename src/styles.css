@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(15, 117, 15);
+    transition: all .400s ease-in-out;
+  }
+  
+  *:focus {
+    outline: none;
+  }
+  
+  /* sistema de grids */
+  .start .play-again {
+    display: grid;
+    grid-gap: .5em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto);
+    width: 100%;
+    height: 100%;
+  }
+  
+  footer {
+    text-align: center;
+    margin-bottom: none;
+    padding: 1em;
+  }
+  
+  /* imagen al pie de start y play-again */
+  .bottom-img {
+    grid-column: 2;
+    grid-row: 3;
+    margin-bottom: none;
+    margin-top: 5em;
+    text-align: center;
+  }
+  
+  /* Estilo del botón "jugar" y "volver a jugar" en start y play-again*/
+  .btn-play {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+  }
+  
+  .btn-play button {
+    border-radius: 1.5em;
+    padding: .5em 3em;
+    font-size: 1.5em;
+    border: solid rgb(12, 12, 12);
+    background-color: rgb(182, 9, 9);
+    color: rgb(12, 12, 12);
+    margin-bottom: .5em;
+    margin-top: 3em;
+    cursor: pointer;
+  }
+  

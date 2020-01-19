@@ -1,0 +1,18 @@
+/* estilo del enlase a instrucciones */
+.instructions {
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    font-size: 1.5em;
+    margin: .5em;
+  }
+  
+  .instructions a {
+    color: rgb(12, 12, 12);
+  }
+  
+  .instructions a:hover,
+  .instructions a h6:hover {
+    color: rgb(182, 9, 9);
+    transition: 0s;
+  }

@@ -1,0 +1,8 @@
+<section class="game">
+
+    <div *ngFor="let mixedcard of mixedCard" class="card" [style.order]="mixedcard.position">
+      <img class="fase back" src="../../../assets/img/carta_rev.png">
+      <img class="fase front" [src]="mixedcard.image" alt="{{mixedcard.id}}">
+    </div>
+    
+</section>
