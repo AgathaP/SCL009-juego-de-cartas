@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>Pair for win</title>
+  <!-- base href="http://localhost:4200/" -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="http://localhost:4200/favicon.ico">
+<style type="text/css">/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(15, 117, 15);
+  transition: all 1s ease-in-out;
+}
+*:focus { outline: none; }
+/* sistema de grids */
+.start .play-again{
+    display: grid;
+    grid-gap: .5em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto);
+    width: 100%;
+    height: 100%;
+  }
+footer {
+  text-align: center;
+  margin-bottom: none;
+}
+.bottom-img {
+    grid-column: 2;
+    grid-row: 3;
+    margin-bottom: none;
+    margin-top: 5em;
+    text-align: center;
+  }
+/* Estilo del botón "jugar" */
+.btn-play button {
+    border-radius: 1.5em;
+    padding: .5em 3em;
+    font-size: 1.5em;
+    border: solid rgb(12, 12, 12);
+    background-color: rgb(182, 9, 9);
+    color: rgb(12, 12, 12);
+    margin-bottom: .5em;
+  }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDhFQUE4RTtBQUM5RTtFQUNFLHNCQUFzQjtFQUN0QixTQUFTO0VBQ1QsVUFBVTtFQUNWLGtDQUFrQztFQUNsQyw4QkFBOEI7QUFDaEM7QUFDQSxVQUFVLGFBQWEsRUFBRTtBQUV6QixxQkFBcUI7QUFDckI7SUFDSSxhQUFhO0lBQ2IsY0FBYztJQUNkLHFDQUFxQztJQUNyQyxnQ0FBZ0M7SUFDaEMsV0FBVztJQUNYLFlBQVk7RUFDZDtBQUVGO0VBQ0Usa0JBQWtCO0VBQ2xCLG1CQUFtQjtBQUNyQjtBQUVBO0lBQ0ksY0FBYztJQUNkLFdBQVc7SUFDWCxtQkFBbUI7SUFDbkIsZUFBZTtJQUNmLGtCQUFrQjtFQUNwQjtBQUVBLDZCQUE2QjtBQUM3QjtJQUNFLG9CQUFvQjtJQUNwQixpQkFBaUI7SUFDakIsZ0JBQWdCO0lBQ2hCLDZCQUE2QjtJQUM3QixnQ0FBZ0M7SUFDaEMsc0JBQXNCO0lBQ3RCLG1CQUFtQjtFQUNyQiIsImZpbGUiOiJzcmMvc3R5bGVzLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFlvdSBjYW4gYWRkIGdsb2JhbCBzdHlsZXMgdG8gdGhpcyBmaWxlLCBhbmQgYWxzbyBpbXBvcnQgb3RoZXIgc3R5bGUgZmlsZXMgKi9cbioge1xuICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICBtYXJnaW46IDA7XG4gIHBhZGRpbmc6IDA7XG4gIGJhY2tncm91bmQtY29sb3I6IHJnYigxNSwgMTE3LCAxNSk7XG4gIHRyYW5zaXRpb246IGFsbCAxcyBlYXNlLWluLW91dDtcbn1cbio6Zm9jdXMgeyBvdXRsaW5lOiBub25lOyB9IFxuXG4vKiBzaXN0ZW1hIGRlIGdyaWRzICovXG4uc3RhcnQgLnBsYXktYWdhaW57XG4gICAgZGlzcGxheTogZ3JpZDtcbiAgICBncmlkLWdhcDogLjVlbTtcbiAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdCgzLCAxZnIpO1xuICAgIGdyaWQtdGVtcGxhdGUtcm93czogcmVwZWF0KGF1dG8pO1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogMTAwJTtcbiAgfVxuICBcbmZvb3RlciB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgbWFyZ2luLWJvdHRvbTogbm9uZTtcbn1cblxuLmJvdHRvbS1pbWcge1xuICAgIGdyaWQtY29sdW1uOiAyO1xuICAgIGdyaWQtcm93OiAzO1xuICAgIG1hcmdpbi1ib3R0b206IG5vbmU7XG4gICAgbWFyZ2luLXRvcDogNWVtO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgfVxuXG4gIC8qIEVzdGlsbyBkZWwgYm90w7NuIFwianVnYXJcIiAqL1xuICAuYnRuLXBsYXkgYnV0dG9uIHtcbiAgICBib3JkZXItcmFkaXVzOiAxLjVlbTtcbiAgICBwYWRkaW5nOiAuNWVtIDNlbTtcbiAgICBmb250LXNpemU6IDEuNWVtO1xuICAgIGJvcmRlcjogc29saWQgcmdiKDEyLCAxMiwgMTIpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigxODIsIDksIDkpO1xuICAgIGNvbG9yOiByZ2IoMTIsIDEyLCAxMik7XG4gICAgbWFyZ2luLWJvdHRvbTogLjVlbTtcbiAgfSJdfQ== */</style><style>html[_ngcontent-ofa-c0]{
+    display: grid;
+    grid-gap: .5em;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(auto);
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .title[_ngcontent-ofa-c0] {
+    text-align: center;
+    padding-bottom: 3em;
+    padding-top: 4em;
+    font-size: 1.5em;
+    grid-column: 3/8;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsY0FBYztJQUNkLHNDQUFzQztJQUN0QyxnQ0FBZ0M7SUFDaEMsV0FBVztJQUNYLFlBQVk7SUFDWixrQkFBa0I7RUFDcEI7O0VBRUE7SUFDRSxrQkFBa0I7SUFDbEIsbUJBQW1CO0lBQ25CLGdCQUFnQjtJQUNoQixnQkFBZ0I7SUFDaEIsZ0JBQWdCO0FBQ3BCIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJodG1se1xuICAgIGRpc3BsYXk6IGdyaWQ7XG4gICAgZ3JpZC1nYXA6IC41ZW07XG4gICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoMTIsIDFmcik7XG4gICAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiByZXBlYXQoYXV0byk7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiAxMDAlO1xuICAgIC8qIGhlaWdodDogMzhlbTsgKi9cbiAgfVxuXG4gIC50aXRsZSB7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIHBhZGRpbmctYm90dG9tOiAzZW07XG4gICAgcGFkZGluZy10b3A6IDRlbTtcbiAgICBmb250LXNpemU6IDEuNWVtO1xuICAgIGdyaWQtY29sdW1uOiAzLzg7XG59XG4iXX0= */</style><style>.btn-play[_ngcontent-ofa-c1] {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: center;
+}
+
+
+
+.instructions[_ngcontent-ofa-c1] {
+  grid-column: 2;
+  grid-row: 2;
+  text-align: center;
+  font-size: 1.5em;
+  margin: .5em;
+}
+
+.instructions[_ngcontent-ofa-c1]   a[_ngcontent-ofa-c1] {
+  color: rgb(12, 12, 12);
+}
+
+.instructions[_ngcontent-ofa-c1]   a[_ngcontent-ofa-c1]:hover, .instructions[_ngcontent-ofa-c1]   a[_ngcontent-ofa-c1]   h6[_ngcontent-ofa-c1]:hover {
+  color: rgb(182, 9, 9);
+  transition: 0s;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zdGFydC9zdGFydC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOzs7O0dBSUc7O0FBRUg7Ozs7Ozs7R0FPRzs7QUFFSCxZQUFZOztBQUNaOzs7O0dBSUc7O0FBRUgsNkJBQTZCOztBQUM3QjtFQUNFLGNBQWM7RUFDZCxXQUFXO0VBQ1gsa0JBQWtCO0FBQ3BCOztBQUVBLHNDQUFzQzs7QUFDdEM7RUFDRSxjQUFjO0VBQ2QsV0FBVztFQUNYLGtCQUFrQjtFQUNsQixnQkFBZ0I7RUFDaEIsWUFBWTtBQUNkOztBQUVBO0VBQ0Usc0JBQXNCO0FBQ3hCOztBQUVBO0VBQ0UscUJBQXFCO0VBQ3JCLGNBQWM7QUFDaEIiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3N0YXJ0L3N0YXJ0LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBwYXJhIGNlbnRyYXJ7XG5kaXNwbGF5OiBmbGV4OyBcbmFsaWduLWl0ZW1zOiBjZW50ZXI7IFxuanVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG59ICovXG5cbi8qIC5zdGFydCB7XG4gIGRpc3BsYXk6IGdyaWQ7XG4gIGdyaWQtZ2FwOiAuNWVtO1xuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdCgzLCAxZnIpO1xuICBncmlkLXRlbXBsYXRlLXJvd3M6IHJlcGVhdChhdXRvKTtcbiAgd2lkdGg6IDEwMCU7XG4gIGhlaWdodDogMTAwJTtcbn0gKi9cblxuLyogY2VudHJhciAqL1xuLyogLmJ0bi1wbGF5LCAuaW5zdHJ1Y3Rpb25zLCAuYm90dG9tLWltZ3tcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG59ICovXG5cbi8qIEVzdGlsbyBkZWwgYm90w7NuIFwianVnYXJcIiAqL1xuLmJ0bi1wbGF5IHtcbiAgZ3JpZC1jb2x1bW46IDI7XG4gIGdyaWQtcm93OiAxO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi8qIGVzdGlsbyBkZWwgZW5sYXNlIGEgaW5zdHJ1Y2Npb25lcyAqL1xuLmluc3RydWN0aW9ucyB7XG4gIGdyaWQtY29sdW1uOiAyO1xuICBncmlkLXJvdzogMjtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LXNpemU6IDEuNWVtO1xuICBtYXJnaW46IC41ZW07XG59XG5cbi5pbnN0cnVjdGlvbnMgYSB7XG4gIGNvbG9yOiByZ2IoMTIsIDEyLCAxMik7XG59XG5cbi5pbnN0cnVjdGlvbnMgYTpob3ZlciwgLmluc3RydWN0aW9ucyBhIGg2OmhvdmVyIHtcbiAgY29sb3I6IHJnYigxODIsIDksIDkpO1xuICB0cmFuc2l0aW9uOiAwcztcbn1cbiJdfQ== */</style></head>
+<body>
+
+  <app-root _nghost-ofa-c0="" ng-version="8.2.2"><div _ngcontent-ofa-c0="" class="title"><h1 _ngcontent-ofa-c0="">Pair for win</h1></div><router-outlet _ngcontent-ofa-c0=""></router-outlet><app-start _nghost-ofa-c1=""><section _ngcontent-ofa-c1="" class="start"><div _ngcontent-ofa-c1="" class="btn-play"><button _ngcontent-ofa-c1="" routerlink="/game" tabindex="0" ng-reflect-router-link="/game">Jugar</button></div><div _ngcontent-ofa-c1="" class="instructions"><a _ngcontent-ofa-c1="" routerlink="/instructions" ng-reflect-router-link="/instructions" href="http://localhost:4200/instructions"><h6 _ngcontent-ofa-c1="">Cómo jugar</h6></a></div><div _ngcontent-ofa-c1="" class="bottom-img"><img _ngcontent-ofa-c1="" alt="" src="Pair%20for%20win_archivos/poker-sin-descarte-madrid-escalera-300x169.png"></div></section></app-start></app-root>
+  
+  <footer>NezuProyect</footer>
+<script src="Pair%20for%20win_archivos/runtime.js" type="module"></script><script src="Pair%20for%20win_archivos/polyfills.js" type="module"></script><script src="Pair%20for%20win_archivos/styles.js" type="module"></script><script src="Pair%20for%20win_archivos/vendor.js" type="module"></script><script src="Pair%20for%20win_archivos/main.js" type="module"></script>
+
+</body></html>
